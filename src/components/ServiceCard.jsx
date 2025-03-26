@@ -14,4 +14,6 @@ const ServiceCard = ({imgURL, label, subtext}) => {
     );
 };
 
+// show content
+
 export default ServiceCard;
