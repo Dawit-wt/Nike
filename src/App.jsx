@@ -13,13 +13,13 @@ import Nav from "./components/Nav.jsx";
 const app = () => (
     <main className="relative">
         <Nav/>
-        <section className="xl:padding-l wide:padding-r padding-b">
+        <section id="home" className="xl:padding-l wide:padding-r padding-b">
             <Hero/>
         </section>
-        <section className="padding">
+        <section id="products" className="padding">
             <PopularProducts/>
         </section>
-        <section className="padding">
+        <section id="super-quality" className="padding">
             <SuperQuality/>
         </section>
         <section className="padding-x py-10">
@@ -31,10 +31,10 @@ const app = () => (
         <section className="bg-pale-blue padding">
             <CustomerReviews/>
         </section>
-        <section className="padding-x py-16 w-full sm:py-32">
+        <section id="contact-us" className="padding-x py-16 w-full sm:py-32">
             <Subscribe/>
         </section>
-        <section className="pb-8 bg-black padding-x padding-t">
+        <section id="footer" className="pb-8 bg-black padding-x padding-t">
             <Footer/>
         </section>
     </main>

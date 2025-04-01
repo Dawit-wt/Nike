@@ -24,6 +24,3 @@ const PopularProducts = () => {
 };
 
 export default PopularProducts;
-
-
-// TODO add scroll triggered animation

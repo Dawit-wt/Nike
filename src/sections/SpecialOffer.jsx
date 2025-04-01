@@ -4,10 +4,7 @@ import {arrowRight} from "../assets/icons/index.js";
 
 const SpecialOffer = () => {
     return (
-        <section
-            id="#"
-            className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container"
-        >
+        <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
             <div className="flex-1">
                 <img
                     src={offer}
@@ -32,11 +29,7 @@ const SpecialOffer = () => {
                     nothing short of exceptional.
                 </p>
                 <div className="mt-11 flex flex-col flex-wrap md:flex-row md:gap-5">
-                    <Button
-                        label="Shop Now"
-                        iconURL={arrowRight}
-                        marginBottom
-                    />
+                    <Button label="Shop Now" iconURL={arrowRight} marginBottom/>
                     <Button
                         label="Learn More"
                         backgroundColor="bg-white"
