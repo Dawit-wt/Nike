@@ -17,7 +17,7 @@ sections such as a hero section, popular products, services, special offers, cus
     ```
 2. Navigate to the project directory:
     ```sh
-    cd nike-project
+    cd Nike
     ```
 3. Install the dependencies:
     ```sh
